@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> MentMe</title>
+</head>
+
+<body>
+        <header>
+    <a href="home.html"><img src="images/logo.png"></a>
+     <h1>MentMe Blog</h1>
+   <nav>
+    <a href="home.html"> Home</a> | <a href="About.html">About</a> | <a href="faq.html">FAQ</a> | 
+    <a href="login.html">Login/Register</a> | <a href="contact.html">Contact</a>
+    </nav>
+        </header>
+<hr>
+<h1> Sign Up</h1>
+<hr> 
+<h1> Create an Account</h1>
+
+<form>
+
+<fieldset>
+    <Legend> Personal Details</Legend>
+    <label>Firstname: <input type="text"  placeholder="your Firstname"></label>
+   <p><label>Lastname:  <input type="text"  placeholder="your Lastname"></label></p>
+    <p>Gender<br>    
+    <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female
+    <p>Date of Birth<br>
+    <input type="date" name="dob"></p>
+
+<p> Select your interests</p>
+<ul>
+       <li><input type="checkbox" name="interests"value="music"> Music </li>
+       <li><input type="checkbox" name="interests"value="Comdey"> Comdey</li>
+       <li><input type="checkbox" name="interests"value="Showbiz"> Showbiz</li>
+       <li><input type="checkbox" name="interests"value="Education"> Education</li>
+</ul>
+
+<p>Age Range
+    <select name="age range" input type="number" placeholder="--select Age--">
+        <option>--Select Age--</option>
+        <option> 10-20</option>
+        <option> 20-30 </option>
+        <option> 30-40</option>
+        <option> 40-50</option>
+    </select>
+</p>
+
+Select Favourite Movies<br>
+<mark><small> Select more than one where applicable </small></mark><br>
+<select name="Movies" size="4" multiple>
+    <optgroup label="Series">
+        <option> Games of Thrones</option>
+        <option> Money Heist</option>
+        <option> Big Bang Theory</option>
+   </optgroup>
+
+   <optgroup label="Movie">
+        <option>John Wick</option>
+        <option>Proud Mary</option>
+        <option>The Wedding Party</option>
+    </optgroup>
+</select>
+
+        <p>Select Favourite Color<br><input type="color"></p>
+</fieldset>
+
+<fieldset>
+    <legend> Account details</legend>
+       <p> Upload Profile Picture<br>
+        <mark><small> Pictures should not be more than10kb </small></mark><br><input type="file" name="profile_pic ">
+       </p>
+       <p><label>Username:  <input type="text" name="username" placeholder="Your Username"  maxlength="15"></label></p>
+       <p><label>Password: <input type="text" name="pswd" placeholder="Your Password" maxlength="25" ></label></p>
+       <p><label>Retype Password: <input type="text" name="pswd" placeholder="Retype Password" maxlength="25"></label></p>
+       <p> Rate Us Now (0 to 10)<br> <input type="range" name="Range" min="0" max="10" step="1"></p>
+
+       <p><input type="checkbox" name="agreement"> <small>I agree to your terms and conditions<br><a href="terms.html">Click here </a>
+        for terms and conditions</small>
+       </p>
+       <P><input type="submit" value="Sign Up"><input type="submit" value="Clear Data"></P>
+</fieldset>
+
+<fieldset>
+    <legend> Disclaimer</legend>
+    <p> All information provided were given voluntarily by the bearer of the above details</p>
+</fieldset>
+
+</form>
+
+
+<aside>
+        <dl>
+            <dd>
+                <h2>Other Links</h2>
+            </dd>
+        </dl>
+<ul>
+        <li><a href="sitemap.html">Site Map</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="archives.html">Archives(90)</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+</ul>
+</aside>
+
+<footer>
+    <p>Copyright &copy; 2019</p>
+    <p> All right Reserved</p>
+</footer>
+
+</body>
+</html>
